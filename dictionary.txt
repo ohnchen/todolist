@@ -1,4 +1,3 @@
-Finish TO-DO-List
 Binary Search
 Text to speech
 Password Generator
@@ -13,3 +12,4 @@ Fast Typing Tester
 Library Managment
 Content Aggregator
 Keyboard Game
+Daily quotes
