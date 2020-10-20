@@ -6,8 +6,6 @@ task = {}
 s = []
 # x = " "		## ✔
 
-def check():
-    pass 
 
 def read():
     f = open("dictionary.txt", "r")
@@ -15,19 +13,22 @@ def read():
     f.close()
     for i in content.split("\n"):
         task[i] = i
-    print(task)
 
 def print_header():
     os.system("clear")
-    print("#"*90)
-    print("#"*40 + "TO-DO-List" + "#"*40)
-    print("#"*90)
-    print("1.   Add a new Task")
+    print("######## ######## ######  ########")
+    print("   ##    ##    ## ##    # ##    ##")
+    print("   ##    ##    ## ##    # ##    ##")
+    print("   ##    ##    ## ##    # ##    ##")
+    print("   ##    ######## ######  ########")
+    print("\n1.   Add a new Task")
     print("2.   Remove a Task")
     print("3.   Exit the program and save the entries\n") 
-
+  
     for key, value in task.items():
-        print("-->  " + key)
+        print("-->  " + value)
+
+
 
 def exit():
     os.system("exit")

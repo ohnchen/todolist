@@ -4,7 +4,6 @@ Password Generator
 Youtube Downloader with API
 Countdown
 Calculator
-Memory
 Random Wiki Artikel
 Steganographie
 Insta Bot
@@ -12,4 +11,4 @@ Fast Typing Tester
 Library Managment
 Content Aggregator
 Keyboard Game
-Daily quotes
+Memory  
